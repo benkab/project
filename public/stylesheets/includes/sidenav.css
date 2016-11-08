@@ -1,0 +1,15 @@
+.sidenav{
+    color: #9B9A9A;
+}
+
+.sidenav .logo{
+    color: #B2AFAF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.sidenav ul.menu li a{
+    color: #9B9A9A;
+}
