@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppService } from './app.service';
 
 @Component({
     selector: 'my-app',
@@ -6,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     
+    constructor(private appService : AppService){}
+
+    isLoggedIn(){
+        return this.appService.isLoggedIn();
+    }
 }

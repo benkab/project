@@ -1,44 +1,40 @@
 body, html {
   padding: 0px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 13px;
+  background: #F2F2F2;
+  color: #908E8E;
   margin: 0px;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 12px;
-  background: #F7F7F7;
-  height: 100% !important;
-  color: #8D8B8B;
 }
 
-.background{
-  position: relative;
-  padding-left: 230px;
-  padding-right: 70px;
-  height: 100% !important;
+.section{
+  padding: 0px !important;
+  margin: 0px;
 }
 
-.sidenav{
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  max-width: 230px;
-  min-width: 230px;
-  background: #171616;
-  height: 100% !important;
-  padding: 20px;
-  padding-top: 15px;
+.row{
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
-.rightnav{
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  max-width: 70px;
-  min-width: 70px;
-  background: #F7F7F7;
-  height: 100% !important;
-  padding: 20px;
-  padding-top: 15px;
-  border-left: 1px solid #E1DFDF;
+router-outler{
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
+menu, navbar{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+input.ng-invalid.ng-touched{
+  border: 1px solid #F385B2 !important;
+}
+
+input.ng-valid{
+  border: 1px solid #E0E0E0 !important;
+}
+
+.card {
+  border-radius: 0px !important;
+}

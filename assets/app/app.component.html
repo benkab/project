@@ -1,13 +1,3 @@
-<div class="row background">
-    <div class="sidenav">
-        <sidenav></sidenav>
-    </div>
-    <div class="row content">
-        <div class="row navbar">
-            <navbar></navbar>
-        </div>
-    </div>
-    <div class="rightnav">
-        <rightnav></rightnav>
-    </div>
-</div>
+<navbar></navbar>
+<menu *ngIf="isLoggedIn()"></menu>
+<router-outlet></router-outlet>
